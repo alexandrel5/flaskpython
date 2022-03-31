@@ -1,0 +1,9 @@
+python -m venv .
+
+.\Scripts\activate.bat
+deactivate
+
+
+pip install Flask
+pip install Flask-Restful
+pip freeze
