@@ -1,9 +1,28 @@
+https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-ubuntu-18-04-quickstart
+
+#listar Bibliotecas instaladas no Ambiente virtual
+pip freeze
+
+#para criar o ambiente virtual python
 python -m venv .
 
+#para ativar o ambiente virtual python ficara assim ""#(ambvir) C:\Users\Alexandre\Documents\Python  e Flask\Iniciante>""
+#Windows
 .\Scripts\activate.bat
+#Linux
+source my_env/bin/activate
+
+#para desativar o ambiente virtual python
 deactivate
 
 
-pip install Flask
-pip install Flask-Restful
+pip install flask==1.0.2
+pip install jinja2==3.0.3
+pip install Werkzeug==2.0.0
+pip install Flask==1.0.2
+pip install Flask-Restful==0.3.7
 pip freeze
+pip install Flask-SQLAlchemy
+
+pip install Flask-JWT-Extended
+pip install Werkzeug==2.0.0
